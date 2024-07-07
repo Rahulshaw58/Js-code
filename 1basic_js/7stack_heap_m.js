@@ -29,7 +29,7 @@ user2.emaail= "dipak3636@gos.com";
 console.log(user1.email);
 console.log(user2.email);
 
-//console.log("hello");
+console.log("hello");
 // Non-Primitive data types in pass reference So, if you changes in user2 then automatically changes in user1. Because user2 point the user1 data.
 
   // THAT'S ALL THANK YOU.
