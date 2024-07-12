@@ -41,6 +41,17 @@ const all_new_heros = [...bhojpuri, ...bollywod];
 // console.log(Array.isArray("Rahul"));
 // Output:-false
 
+// convert in array.
 // console.log(Array.from("Rahul"));
-//[ 'R', 'a', 'h', 'u', 'l' ]
+//Output:- [ 'R', 'a', 'h', 'u', 'l' ]
 
+// have to tell the what kind of to converting values, key etc. Otherwise output is output will be empty.
+// console.log(Array.from({name: "Rahul"}));// Interesting.
+// output:- [].
+
+let s1=100;
+let s2=200;
+let s3=300;
+// convert in array given variable.
+console.log(Array.of(s1, s2,s3));
+//Output :- [ 100, 200, 300 ]
