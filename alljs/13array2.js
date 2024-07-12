@@ -27,12 +27,20 @@ const all_new_heros = [...bhojpuri, ...bollywod];
 //[ 'pawan', 'kheshari', 'Nilkamal', 'SunnyDeol', 'Ajay' ]
 
 
-const another_array = [1, 2, 3, [4,5, 6], 7, [6, 7, [4, 5]]];
-
-const real= another_array.flat(Infinity);
-console.log(real);
+// const another_array = [1, 2, 3, [4,5, 6], 7, [6, 7, [4, 5]]];
+// const real= another_array.flat(Infinity);
+// console.log(real);
+//Output:-
 // [
 //     1, 2, 3, 4, 5,
 //     6, 7, 6, 7, 4,
 //     5
 //   ]
+
+// check array or not .
+// console.log(Array.isArray("Rahul"));
+// Output:-false
+
+// console.log(Array.from("Rahul"));
+//[ 'R', 'a', 'h', 'u', 'l' ]
+
